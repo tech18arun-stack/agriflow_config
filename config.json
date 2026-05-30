@@ -1,9 +1,8 @@
-
 {
   "appwrite": {
     "endpoint": "https://api.websitescorp.com/v1",
-    "projectId": "69d5d5ff0014699913f4",
-    "databaseId": "69d5d6770036e6c9bfc"
+    "projectId": "6a1a78680019d948424d",
+    "databaseId": "6a1a79a10013a62c8bad"
   },
   "collections": {
     "users": "users",
@@ -24,14 +23,40 @@
     "municipalities": "municipalities",
     "loi_requests": "loi_requests",
     "product_templates": "product_templates",
+    "harvest_previews": "harvest_previews",
+    "wishlist": "wishlist",
+    "addresses": "addresses",
+    "inventory": "inventory",
+    "banners": "banners",
+    "coupons": "coupons",
+    "order_items": "order_items",
+    "analytics": "analytics",
+    "recently_viewed": "recently_viewed",
+    "admin_settings": "admin_settings",
     "flower_prices": "flower_prices",
-    "flower_catalog": "flower_catalog"
+    "flower_catalog": "flower_catalog",
+    "market_prices": "market_prices"
   },
   "buckets": {
     "product_images": "product_images",
-    "profile_images": "profile_images"
+    "profile_images": "profile_images",
+    "banner_images": "banner_images",
+    "review_images": "review_images",
+    "document_uploads": "document_uploads"
   },
   "maps": {
     "maptiler_key": "eBVGyj1xRKZtAPdAnvmv"
+  },
+  "google": {
+    "ga4_property_id": "296800688",
+    "client_id": "168216589626-stobuqktd9j6omkrhibhuk37tc5n96ek.apps.googleusercontent.com",
+    "service_account_path": "./ga-service-account.json"
+  },
+  "email": {
+    "service": "gmail",
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "user": "ceo@websitescorp.com",
+    "pass": "qgkqymxuzijvtksn"
   }
 }
